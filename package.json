@@ -1,0 +1,35 @@
+{
+  "name": "reactive-fun",
+  "version": "1.0.0",
+  "description": "Reactive madness.\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[CMy reactive madness.",
+  "main": "\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "watchify index.js -v -t babelify -o bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shagon1k/reactive-fun.git"
+  },
+  "keywords": [
+    "react",
+    "madness",
+    "bad-coding"
+  ],
+  "author": "Alex Hur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shagon1k/reactive-fun/issues"
+  },
+  "homepage": "https://github.com/Shagon1k/reactive-fun#readme",
+  "dependencies": {
+    "babelify": "^7.3.0",
+    "react": "^15.4.0",
+    "react-dom": "^15.4.0",
+    "watchify": "^3.7.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-react": "^6.16.0"
+  }
+}
